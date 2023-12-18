@@ -5,6 +5,9 @@ import { GlobalStyle } from '../styles/globalstyle';
 import { theme } from '../themes/theme';
 import Layout from '../layout';
 
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/react';
+
 function App({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <ThemeProvider theme={theme}>
@@ -12,6 +15,8 @@ function App({ Component, pageProps }: AppProps): JSX.Element {
         <GlobalStyle />
         <Layout>
           <Component {...pageProps} />
+          <SpeedInsights />
+          <Analytics />
         </Layout>
       </ChakraProvider>
     </ThemeProvider>
