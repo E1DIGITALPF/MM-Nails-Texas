@@ -1,36 +1,34 @@
-# M&M Nails Texas website
+# Sitio web de M&M Nails Texas
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Visítalo mediante [este enlace](https://mm-nails-texas.vercel.app/).
 
-## Getting Started
+Este es un proyecto [Next.js](https://nextjs.org/) creado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) y enfocado a un estudio de uñas ubicado en Houston, Texas, US. Sirve para promocionar los servicios del estudio y a su vez utilizarlo como portafolio y tarjeta de negocios.
 
-First, run the development server:
+## Empezando
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Primero, descárgate el repositorio y descomprimelo en una carpeta nueva. Deberás abrir esa carpeta con tu editor de código favorito.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Una vez estando en la raiz del proyecto, ejecuta ```yarn install``` y así se instalarán las dependencias en tu entorno de desarrollo.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Si todo ha salido bien ejecuta ```yarn dev```. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Puedes comenzar a editar la página midificando lo que quieras. La página se actualiza automáticamente mientras editas el archivo.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Las [rutas de API](https://nextjs.org/docs/api-routes/introduction) se pueden acceder en [http://localhost:3000/api/hello](http://localhost:3000/api/hello). Este punto final se puede editar en `pages/api/hello.ts`.
 
-## Learn More
+El directorio `pages/api` está mapeado a `/api/*`. Los archivos en este directorio se tratan como [rutas de API](https://nextjs.org/docs/api-routes/introduction) en lugar de páginas React.
 
-To learn more about Next.js, take a look at the following resources:
+## Aprende Más
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para obtener más información sobre Next.js, echa un vistazo a los siguientes recursos:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Documentación de Next.js](https://nextjs.org/docs) - aprende sobre las características y la API de Next.js.
+- [Aprende Next.js](https://nextjs.org/learn) - un tutorial interactivo de Next.js.
 
-## Deploy on Vercel
+Puedes revisar [el repositorio de GitHub de Next.js](https://github.com/vercel/next.js/) - ¡tus comentarios y contribuciones son bienvenidos!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Implementar en Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+La forma más sencilla de implementar tu aplicación Next.js es utilizar la [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) de los creadores de Next.js.
+
+Consulta la [documentación de implementación de Next.js](https://nextjs.org/docs/deployment) para obtener más detalles.
