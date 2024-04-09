@@ -112,7 +112,7 @@ export default function Layout({ children }: LayoutProps) {
                         />
                         <HeaderLink
                             content='Reserva tu cita'
-                            url='https://mmnailstexas.as.me/schedule.php'
+                            url='https://api.whatsapp.com/send?phone=18324507722'
                             target='_blank'
                             rel='noopener noreferrer'
                         />
@@ -142,7 +142,7 @@ export default function Layout({ children }: LayoutProps) {
                     />
                     <HeaderLink
                         content='Reserva tu cita'
-                        url='https://mmnailstexas.as.me/schedule.php'
+                        url='https://api.whatsapp.com/send?phone=18324507722'
                         target='_blank'
                         rel='noopener noreferrer'
                     />
@@ -185,7 +185,7 @@ export default function Layout({ children }: LayoutProps) {
             >
                 <Divider />
                 <Text
-                    content='M&M Nails LLC - © Copyright  2023'
+                    content='M&M Nails LLC - © Copyright  2024'
                     style={{
                         color: theme.colors.white100,
                         fontSize: theme.sizes.small
