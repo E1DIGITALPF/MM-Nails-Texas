@@ -46,6 +46,7 @@ const RAW_RUNTIME_STATE =
           ["next", "virtual:1673a8183fb4ebcb51becae3f6a9d8a8434bea6234547d2e1caa3e6f2b1a3e584d70fe8086ce542d9398def4ade9eb61c42811f5549c98133b5374d963cfbdc9#npm:12.3.4"],\
           ["next-progress", "virtual:1673a8183fb4ebcb51becae3f6a9d8a8434bea6234547d2e1caa3e6f2b1a3e584d70fe8086ce542d9398def4ade9eb61c42811f5549c98133b5374d963cfbdc9#npm:2.3.1"],\
           ["polished", "npm:4.3.1"],\
+          ["postcss", "npm:8.4.38"],\
           ["prop-types", "npm:15.8.1"],\
           ["rc-checkbox", "virtual:1673a8183fb4ebcb51becae3f6a9d8a8434bea6234547d2e1caa3e6f2b1a3e584d70fe8086ce542d9398def4ade9eb61c42811f5549c98133b5374d963cfbdc9#npm:2.3.2"],\
           ["rc-progress", "virtual:1673a8183fb4ebcb51becae3f6a9d8a8434bea6234547d2e1caa3e6f2b1a3e584d70fe8086ce542d9398def4ade9eb61c42811f5549c98133b5374d963cfbdc9#npm:3.5.1"],\
@@ -72,6 +73,7 @@ const RAW_RUNTIME_STATE =
           ["styled-components", "virtual:1673a8183fb4ebcb51becae3f6a9d8a8434bea6234547d2e1caa3e6f2b1a3e584d70fe8086ce542d9398def4ade9eb61c42811f5549c98133b5374d963cfbdc9#npm:5.3.11"],\
           ["supercons", "virtual:1673a8183fb4ebcb51becae3f6a9d8a8434bea6234547d2e1caa3e6f2b1a3e584d70fe8086ce542d9398def4ade9eb61c42811f5549c98133b5374d963cfbdc9#npm:0.0.1"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
+          ["yarn-upgrade-all", "npm:0.7.2"],\
           ["yup", "npm:0.32.11"]\
         ],\
         "linkType": "SOFT"\
@@ -7474,6 +7476,16 @@ const RAW_RUNTIME_STATE =
           ["source-map-js", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:8.4.38", {\
+        "packageLocation": "./.yarn/cache/postcss-npm-8.4.38-495621b279-6e44a7ed83.zip/node_modules/postcss/",\
+        "packageDependencies": [\
+          ["postcss", "npm:8.4.38"],\
+          ["nanoid", "npm:3.3.7"],\
+          ["picocolors", "npm:1.0.0"],\
+          ["source-map-js", "npm:1.2.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["postcss-value-parser", [\
@@ -8271,6 +8283,7 @@ const RAW_RUNTIME_STATE =
           ["next", "virtual:1673a8183fb4ebcb51becae3f6a9d8a8434bea6234547d2e1caa3e6f2b1a3e584d70fe8086ce542d9398def4ade9eb61c42811f5549c98133b5374d963cfbdc9#npm:12.3.4"],\
           ["next-progress", "virtual:1673a8183fb4ebcb51becae3f6a9d8a8434bea6234547d2e1caa3e6f2b1a3e584d70fe8086ce542d9398def4ade9eb61c42811f5549c98133b5374d963cfbdc9#npm:2.3.1"],\
           ["polished", "npm:4.3.1"],\
+          ["postcss", "npm:8.4.38"],\
           ["prop-types", "npm:15.8.1"],\
           ["rc-checkbox", "virtual:1673a8183fb4ebcb51becae3f6a9d8a8434bea6234547d2e1caa3e6f2b1a3e584d70fe8086ce542d9398def4ade9eb61c42811f5549c98133b5374d963cfbdc9#npm:2.3.2"],\
           ["rc-progress", "virtual:1673a8183fb4ebcb51becae3f6a9d8a8434bea6234547d2e1caa3e6f2b1a3e584d70fe8086ce542d9398def4ade9eb61c42811f5549c98133b5374d963cfbdc9#npm:3.5.1"],\
@@ -8297,6 +8310,7 @@ const RAW_RUNTIME_STATE =
           ["styled-components", "virtual:1673a8183fb4ebcb51becae3f6a9d8a8434bea6234547d2e1caa3e6f2b1a3e584d70fe8086ce542d9398def4ade9eb61c42811f5549c98133b5374d963cfbdc9#npm:5.3.11"],\
           ["supercons", "virtual:1673a8183fb4ebcb51becae3f6a9d8a8434bea6234547d2e1caa3e6f2b1a3e584d70fe8086ce542d9398def4ade9eb61c42811f5549c98133b5374d963cfbdc9#npm:0.0.1"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
+          ["yarn-upgrade-all", "npm:0.7.2"],\
           ["yup", "npm:0.32.11"]\
         ],\
         "linkType": "SOFT"\
@@ -8752,6 +8766,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/source-map-js-npm-1.0.2-ee4f9f9b30-38e2d2dd18.zip/node_modules/source-map-js/",\
         "packageDependencies": [\
           ["source-map-js", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.2.0", {\
+        "packageLocation": "./.yarn/cache/source-map-js-npm-1.2.0-6e63f357e5-74f331cfd2.zip/node_modules/source-map-js/",\
+        "packageDependencies": [\
+          ["source-map-js", "npm:1.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9606,6 +9627,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/yaml-npm-1.10.2-0e780aebdf-e088b37b4d.zip/node_modules/yaml/",\
         "packageDependencies": [\
           ["yaml", "npm:1.10.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["yarn-upgrade-all", [\
+      ["npm:0.7.2", {\
+        "packageLocation": "./.yarn/cache/yarn-upgrade-all-npm-0.7.2-8154d0eaaf-accf406dda.zip/node_modules/yarn-upgrade-all/",\
+        "packageDependencies": [\
+          ["yarn-upgrade-all", "npm:0.7.2"]\
         ],\
         "linkType": "HARD"\
       }]\

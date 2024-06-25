@@ -57,7 +57,9 @@
     "@types/styled-components": "^5.1.34",
     "eslint": "^8.57.0",
     "eslint-config-next": "^12.3.4",
-    "typescript": "^4.9.5"
+    "postcss": "^8.4.38",
+    "typescript": "^4.9.5",
+    "yarn-upgrade-all": "^0.7.2"
   },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
   "main": "next.config.js",
